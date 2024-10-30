@@ -1,12 +1,12 @@
 {
   "functions": {
-    "api/halamanRegister.php": {},
-    "api/halamanDetailTransaksi.php": {},
-    "api/halamanLogin.php": {},
-    "api/halamanTransaksi.php": {},
-    "api/koneksiPHPDB.php": {},
-    "api/prosesRegister.php": {},
-    "api/verifLogin.php": {}
+    "api/halamanRegister.php": { "memory": 1024 },
+    "api/halamanDetailTransaksi.php": { "memory": 1024 },
+    "api/halamanLogin.php": { "memory": 1024 },
+    "api/halamanTransaksi.php": { "memory": 1024 },
+    "api/koneksiPHPDB.php": { "memory": 1024 },
+    "api/prosesRegister.php": { "memory": 1024 },
+    "api/verifLogin.php": { "memory": 1024 }
   },
   "routes": [
     { "src": "/register", "dest": "/api/halamanRegister.php" },
