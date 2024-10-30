@@ -2,5 +2,14 @@
   "functions": {
     "api/**/*.php": { "runtime": "vercel-php@0.6.0" }
   },
-  "routes": [{ "src": "/(.*)", "dest": "/api/halamanRegister.php" }]
+  "routes": [{ "src": "/(.*)", "dest": "/api/halamanRegister.php" },
+    { "src": "/(.*)", "dest": "/api/halamanRegister.php" },
+    { "src": "/(.*)", "dest": "/api/halamanDetailTransaksi.php.php" },
+    { "src": "/(.*)", "dest": "/api/halamanLogin.php.php" },
+    { "src": "/(.*)", "dest": "/api/halamanTransaksi.php.php" },
+    { "src": "/(.*)", "dest": "/api/koneksiPHPDB.php.php" },
+    { "src": "/(.*)", "dest": "/api/prosesRegister.php.php" },
+    { "src": "/(.*)", "dest": "/api/verifLogin.php.php" }
+  
+  ]
 }
