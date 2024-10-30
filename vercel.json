@@ -1,6 +1,12 @@
 {
   "functions": {
-    "api/**/*.php": { "runtime": "vercel-php@0.5.2" }
+    "api/halamanRegister.php": { "runtime": "vercel-php@0.5.2" },
+    "api/halamanDetailTransaksi.php": { "runtime": "vercel-php@0.5.2" },
+    "api/halamanLogin.php": { "runtime": "vercel-php@0.5.2" },
+    "api/halamanTransaksi.php": { "runtime": "vercel-php@0.5.2" },
+    "api/koneksiPHPDB.php": { "runtime": "vercel-php@0.5.2" },
+    "api/prosesRegister.php": { "runtime": "vercel-php@0.5.2" },
+    "api/verifLogin.php": { "runtime": "vercel-php@0.5.2" }
   },
   "routes": [
     { "src": "/register", "dest": "/api/halamanRegister.php" },
