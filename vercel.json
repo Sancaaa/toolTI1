@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/**/*.php": { "runtime": "vercel-php@0.6.0" }
+    "api/**/*.php": { "runtime": "30" }
   },
   "routes": [{ "src": "/(.*)", "dest": "/api/halamanRegister.php" },
     { "src": "/(.*)", "dest": "/api/halamanRegister.php" },
