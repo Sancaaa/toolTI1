@@ -1,3 +1,4 @@
+
 {
   "functions": {
     "api/halamanRegister.php": { "runtime": "vercel-php@0.5.2" },
@@ -18,3 +19,4 @@
     { "src": "/verif-login", "dest": "/api/verifLogin.php" }
   ]
 }
+
